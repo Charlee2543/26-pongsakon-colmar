@@ -177,3 +177,14 @@ nav {
         }
     }
 }
+footer{
+    display: flex;
+    justify-content: space-between;
+    ul{
+        display:flex;
+        gap: 16px;
+        li{
+            display:inline;
+        }
+    }
+}
