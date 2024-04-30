@@ -12,10 +12,48 @@
     --white: #F3F5F5;
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-/* .roboto-regular {
+*{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-style: normal; */
-h1 {
-    color: aqua;
+    font-style: normal;
+    color: var(--dark-gray);
+    font-size: 1rem;
+    font-weight: normal;
 }
+header{
+.logo-holder{
+    display: flex;
+    justify-content: flex-start;
+    .logo-text-f{
+        font-weight: 800;
+        color: var(--dark-gray);
+    }
+    .logo-text-b{
+        color: var(--gray);
+    }
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: center; */
+    li {
+        display: inline-flex;
+    }
+}
+}
+.hero {
+    background-color:var(--light-gray);
+    img{
+        margin: 32 24;
+    }
+    h2 {
+        font-weight:800;
+        font-size: 3rem;
+    }
+}
+ .hero-first{
+    h2{
+        color:var(--dark-gray);
+        font-size: 2.5rem;
+    }
+ }
