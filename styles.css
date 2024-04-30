@@ -52,9 +52,9 @@ nav {
   background-color: var(--light-gray);
   display: flex;
   align-items: center;
-  img {
-    /* outline: #ec0a0a solid; */
-    margin: 32px 24px 32px 24px;
+  figure {
+    margin: 32px 24px;
+    width: 60%;
   }
   article {
     display: flex;
@@ -64,7 +64,6 @@ nav {
     h2 {
       font-weight:bolder;
       font-size: 3rem;
-      /* margin: 16px; */
     }
     p{
         margin: 24px 0px;
@@ -75,14 +74,34 @@ nav {
         background-color: var(--dark-gray);
         color: var(--white);
         padding: 8px 0px;
-        /* display: flex;
-        justify-content: center; */
     }
   }
 }
 .hero-first {
-  h2 {
-    color: var(--dark-gray);
-    font-size: 2.5rem;
-  }
+    display:flex;
+    margin: 32px 24px;
+    .main-information{
+        width: 60%;
+        height: auto;
+        margin-right:24px;
+        div {
+            display: flex;
+            overflow:visible;
+            flex-direction: column;
+            h2{
+            color: var(--dark-gray);
+            font-weight: 600;
+            font-size: 2.5rem;
+            margin: 32px 0px 24px;
+          }
+          h4{
+            display: flex;
+            /* flex-direction: column; */
+            align-items: end;
+          }
+        }
+    }
+    .information{
+        width: 40%;
+    }
 }
